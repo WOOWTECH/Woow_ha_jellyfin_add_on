@@ -1,6 +1,6 @@
-last_sync: 2026-10-09T10:32:09Z
+last_sync: 2026-10-10T09:49:16Z
 upstream_url: https://github.com/hassio-addons/repository
 upstream_branch: master
-upstream_commit: d4b1cc66d4b968172d41ca49edabd9737e6691f9
+upstream_commit: 19a614c45a364cfc45d36d0588496b12340594eb
 mirror_image_prefix: ghcr.io/woowtech/ha-mirror-
 keep_subdirs: jellyfin LICENSE.md
