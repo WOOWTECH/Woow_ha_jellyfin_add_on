@@ -1,17 +1,9 @@
 ## What’s changed
 
-## ✨ New features
-
-- Add option to expose node resources without authentication @frenck ([#2281](https://github.com/hassio-addons/app-node-red/pull/2281))
-
-## 🧰 Maintenance
-
-- Migrate the user bundle to /etc/s6-overlay/user-bundles.d @frenck ([#2279](https://github.com/hassio-addons/app-node-red/pull/2279))
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update js-yaml to v5.4.2 @[renovate[bot]](https://github.com/apps/renovate) ([#2278](https://github.com/hassio-addons/app-node-red/pull/2278))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.6 @[renovate[bot]](https://github.com/apps/renovate) ([#2280](https://github.com/hassio-addons/app-node-red/pull/2280))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.7 @[renovate[bot]](https://github.com/apps/renovate) ([#2283](https://github.com/hassio-addons/app-node-red/pull/2283))
-- ⬆️ Update alpine_3_24/python3-dev to v3.14.8-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#2284](https://github.com/hassio-addons/app-node-red/pull/2284))
-- ⬆️ Update node-red-contrib-home-assistant-websocket to v0.81.0 @[renovate[bot]](https://github.com/apps/renovate) ([#2285](https://github.com/hassio-addons/app-node-red/pull/2285))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.10 @[renovate[bot]](https://github.com/apps/renovate) ([#2301](https://github.com/hassio-addons/app-node-red/pull/2301))
+- ⬆️ Update alpine_3_24/python3-dev to v3.14.10-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#2302](https://github.com/hassio-addons/app-node-red/pull/2302))
+- ⬆️ Update alpine_3_24/python3-dev to v3.14.10-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#2303](https://github.com/hassio-addons/app-node-red/pull/2303))
+- ⬆️ Update node-red-contrib-modbus to v5.62.1 @[renovate[bot]](https://github.com/apps/renovate) ([#2300](https://github.com/hassio-addons/app-node-red/pull/2300))
+- ⬆️ Update alpine_3_24/nodejs to v24.22.1-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#2304](https://github.com/hassio-addons/app-node-red/pull/2304))

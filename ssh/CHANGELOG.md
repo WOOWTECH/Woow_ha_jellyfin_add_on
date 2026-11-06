@@ -2,7 +2,6 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update OpenSSL to v3.5.9-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#1148](https://github.com/hassio-addons/app-ssh/pull/1148))
-- ⬆️ Update Python to v3.14.8-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#1150](https://github.com/hassio-addons/app-ssh/pull/1150))
-- ⬆️ Update Docker to v29.8.2-r0 @[renovate[bot]](https://github.com/apps/renovate) ([#1151](https://github.com/hassio-addons/app-ssh/pull/1151))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.7 @[renovate[bot]](https://github.com/apps/renovate) ([#1149](https://github.com/hassio-addons/app-ssh/pull/1149))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.10 @[renovate[bot]](https://github.com/apps/renovate) ([#1168](https://github.com/hassio-addons/app-ssh/pull/1168))
+- ⬆️ Update Python to v3.14.10-r1 @[renovate[bot]](https://github.com/apps/renovate) ([#1169](https://github.com/hassio-addons/app-ssh/pull/1169))
+- ⬆️ Update alpine_3_24/openssh to v10.3_p1-r2 @[renovate[bot]](https://github.com/apps/renovate) ([#1171](https://github.com/hassio-addons/app-ssh/pull/1171))
