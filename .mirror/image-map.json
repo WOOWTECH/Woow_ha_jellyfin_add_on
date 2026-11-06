@@ -9,7 +9,7 @@
       "name": "Jellyfin",
       "upstream_image": "ghcr.io/hassio-addons/jellyfin",
       "new_image": "ghcr.io/woowtech/ha-mirror-ghcr-io-hassio-addons-jellyfin",
-      "version": "0.2.2",
+      "version": "0.4.0",
       "arches": [
         "aarch64",
         "amd64"
