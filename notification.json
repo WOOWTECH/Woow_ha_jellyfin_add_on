@@ -7,11 +7,11 @@
       "name": "Jellyfin",
       "version": "0.2.2",
       "repository": "WOOWTECH/Woow_ha_jellyfin_add_on",
-      "source_sha": "6a8b93997f8c83442e604a0374bb83aa87e0b047",
+      "source_sha": "ab84cb14be3661bf41f497d796868bf4bb12060f",
       "source_path": "jellyfin",
       "config_file": "config.yaml",
       "config_sha256": "sha256:f64f613fe123fe6371200ba0ecc78b8fadde508f982131598f167175e53efc8e",
-      "archive_sha256": "sha256:eb372b0bfb958b1c242160ca7e99de99202f0c61a398fc377e2ef504ad099482",
+      "archive_sha256": "sha256:41c33d6eaf963b90e788ab3274ab9f5a39d8207246327af2e5fa69f37a730bdb",
       "context_fingerprint": "sha256:ef2eb44f73d48eade5bec15c38edbbc38db34688650b7984b8c527d951981db3",
       "material_fingerprint": "sha256:40e6a8aed5bf34770a98fbf1057e5cf19a9908ad8d8e09c0ae92ec615dd617e4",
       "architectures": [
@@ -96,7 +96,7 @@
       },
       "delivery": "published-image",
       "validation": "manifest+architecture-images+configured-CI",
-      "publisher_run_id": "37583077738",
+      "publisher_run_id": "42195512666",
       "channel": "stable"
     }
   }
