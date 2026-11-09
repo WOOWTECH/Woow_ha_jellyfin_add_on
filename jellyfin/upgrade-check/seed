@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+"""Upgrade test hook: complete the startup wizard, create a user and a library on the comparison target (see jellyfin_upgrade.py)."""
+import jellyfin_upgrade
+
+jellyfin_upgrade.main("seed")
