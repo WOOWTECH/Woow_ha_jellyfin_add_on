@@ -14,6 +14,21 @@ files or the automation will break.
   version, mirror image)` tuples. Consumed by `.github/workflows/image-mirror.yml`.
 - **`last-sync.yaml`** — timestamp + upstream commit of the last successful
   mirror-sync run.
+- **`<add-on dir>/upgrade-check/`, `<add-on dir>/upgrade-notes.yaml`**
+  (optional) — upgrade comparison hooks/settings and declared breaking
+  changes for that add-on. mirror-sync copies them into `<add-on dir>/` on
+  every rebuild, so they survive the nightly sync.
+
+## Release gating (pipeline #91)
+
+`mirror-sync` runs sync → image copy (`image-mirror`, which has no schedule
+of its own) → the Store's upgrade comparison → Release, and only the add-ons
+that pass the comparison get a Release. If an add-on fails, the run fails
+and the step summary says which add-on, which category and why. For an
+intended upstream breaking change, add the declaration (with the migration)
+to `.mirror/<add-on dir>/upgrade-notes.yaml`, commit it to `main`, and run
+`mirror-sync` by hand: it checks the same version again and, when it passes,
+creates the Release with the declaration in its notes.
 
 ## `KEEP_SUBDIRS` — why this mirror prunes
 
@@ -56,3 +71,4 @@ cat .mirror/last-sync.yaml
 ```
 
 Both workflows can be run manually from the Actions tab (`Run workflow`).
+`image-mirror` normally runs only inside `mirror-sync`.
