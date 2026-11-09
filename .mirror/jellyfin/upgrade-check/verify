@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+"""Upgrade test hook: check the seeded users and library on the new version (see jellyfin_upgrade.py)."""
+import jellyfin_upgrade
+
+jellyfin_upgrade.main("verify")
